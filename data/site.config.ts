@@ -8,17 +8,15 @@ export const site = {
   city: 'São Paulo', state: 'SP', postalCode: '05388-130',
   maps: 'https://www.google.com/maps/search/?api=1&query=R.%20Ant%C3%B4nio%20Dias%20Pereira%2C%20177%20-%20Vila%20Dalva%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005388-130',
   services: [
-    {name:'Extensão de cílios', label:'01 / LASH', description:'Do fio a fio, de efeito mais natural, aos volumes e efeitos que marcam o olhar. Conheça as técnicas e encontre suas referências.', detail:'Clássico · Volume Brasileiro · Volume Inglês · Volume Egípcio Plus · Volume Luxo · Efeito Sirena · Fox Eyes · Efeito Molhado'},
-    {name:'Design de sobrancelhas',label:'02 / BROW',description:'Design personalizado para os seus traços. Opções com henna ou tintura e brow lamination para alinhar e modelar os fios.',detail:'Design personalizado · Henna · Tintura · Brow lamination'},
-    {name:'Lash lifting',label:'03 / LIFT',description:'Curvatura e destaque para os cílios naturais. Converse com a Manu sobre o resultado desejado e a indicação para você.',detail:'Valorização dos cílios naturais'},
+    {name:'Cílios',label:'01 / CÍLIOS',description:'Extensões e lash lifting.',detail:'Clássico · Volume Brasileiro · Volume Inglês · Volume Egípcio Plus · Volume Luxo · Efeito Sirena · Fox Eyes · Efeito Molhado · Lash lifting'},
+    {name:'Sobrancelhas',label:'02 / SOBRANCELHAS',description:'Design, henna e alinhamento dos fios.',detail:'Design personalizado · Henna · Tintura · Brow lamination'},
+    {name:'Cuidados labiais',label:'03 / LÁBIOS',description:'Hidratação e acabamento.',detail:'HydraGloss Lips · Spa Labial. Consulte a indicação e os detalhes com a Manu.'},
   ],
   faq: [
-    ['Como agendar meu horário?','Você pode acessar a agenda online do Studio ou conversar pelo WhatsApp para consultar procedimentos e horários disponíveis.'],
-    ['Onde fica o Studio?','Na Rua Antônio Dias Pereira, 177, Vila Dalva, São Paulo — SP, CEP 05388-130. Abra o mapa para planejar sua visita.'],
-    ['Quais são os valores e a duração?','Consulte os valores e a duração de cada procedimento na agenda online ou pelo WhatsApp. Confirme os detalhes antes de reservar.'],
-    ['Como escolher o efeito dos cílios?','Envie suas referências e conte o resultado que você procura. Converse com a Manu sobre as técnicas disponíveis e a opção adequada para você.'],
-    ['Quais cuidados devo seguir e quando fazer manutenção?','Peça as orientações específicas para o procedimento escolhido. Confirme também a manutenção, a preparação e os cuidados antes de agendar.'],
-    ['Como cancelar ou remarcar?','Entre em contato com o Studio para consultar a política de cancelamento e reagendamento aplicável à sua reserva.'],
+    ['Como agendar?','Escolha o procedimento e o horário na agenda online. Se tiver dúvidas, converse com a Manu pelo WhatsApp.'],
+    ['Onde vejo valores e duração?','Os detalhes estão na agenda oficial. Confirme as informações antes de reservar.'],
+    ['Quais cuidados preciso seguir?','A preparação, os cuidados e a manutenção dependem do procedimento. Consulte a Manu antes do atendimento.'],
+    ['Como cancelar ou remarcar?','Fale com o Studio para consultar as condições da sua reserva.'],
   ],
 };
 export const origin = process.env.NEXT_PUBLIC_SITE_URL || (process.env.VERCEL_PROJECT_PRODUCTION_URL ? `https://${process.env.VERCEL_PROJECT_PRODUCTION_URL}` : 'http://localhost:3000');
