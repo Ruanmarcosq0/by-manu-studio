@@ -1,6 +1,6 @@
 # By Manu Studio
 
-Site editorial com paleta de marfim, carvão suave e verde discreto em Next.js, React e TypeScript. CSS responsivo sem biblioteca de componentes ou JavaScript de interação desnecessário.
+Site editorial com paleta de bege areia, taupe e marrom espresso em Next.js, React e TypeScript. CSS responsivo sem biblioteca de componentes ou JavaScript de interação desnecessário.
 
 ## Desenvolvimento
 
