@@ -8,9 +8,9 @@ export const site = {
   city: 'São Paulo', state: 'SP', postalCode: '05388-130',
   maps: 'https://www.google.com/maps/search/?api=1&query=R.%20Ant%C3%B4nio%20Dias%20Pereira%2C%20177%20-%20Vila%20Dalva%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2005388-130',
   services: [
-    {name:'Extensão de cílios', label:'01 / LASH', description:'Do clássico aos volumes. Conheça os trabalhos e converse sobre o efeito que você procura.', detail:'Clássico · Volume Brasileiro · Volume Inglês · Volume Plus · Volume Luxo · Efeito Sirena'},
-    {name:'Design de sobrancelhas',label:'02 / BROW',description:'O desenho do olhar começa nas sobrancelhas. Consulte as opções de design e henna.',detail:'Design · Henna'},
-    {name:'Lash lifting',label:'03 / LIFT',description:'Uma outra possibilidade para o seu olhar. Tire suas dúvidas e consulte a indicação diretamente com a Manu.',detail:'Consulte detalhes e disponibilidade'},
+    {name:'Extensão de cílios', label:'01 / LASH', description:'Do fio a fio, de efeito mais natural, aos volumes e efeitos que marcam o olhar. Conheça as técnicas e encontre suas referências.', detail:'Clássico · Volume Brasileiro · Volume Inglês · Volume Egípcio Plus · Volume Luxo · Efeito Sirena · Fox Eyes · Efeito Molhado'},
+    {name:'Design de sobrancelhas',label:'02 / BROW',description:'Design personalizado para os seus traços. Opções com henna ou tintura e brow lamination para alinhar e modelar os fios.',detail:'Design personalizado · Henna · Tintura · Brow lamination'},
+    {name:'Lash lifting',label:'03 / LIFT',description:'Curvatura e destaque para os cílios naturais. Converse com a Manu sobre o resultado desejado e a indicação para você.',detail:'Valorização dos cílios naturais'},
   ],
   faq: [
     ['Como agendar meu horário?','Você pode acessar a agenda online do Studio ou conversar pelo WhatsApp para consultar procedimentos e horários disponíveis.'],
